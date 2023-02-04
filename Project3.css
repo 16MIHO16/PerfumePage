@@ -1,0 +1,83 @@
+body{
+    background-color: rgb(212, 183, 188);
+}
+
+.main{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+    border-radius: 2.5%;
+    background-color: white;
+    height: 450px;
+    width: 650px;
+    display: flex;
+}
+.img1{
+    border-radius: 2.5%;
+    border-top-right-radius: 0%;
+    border-bottom-right-radius: 0%;
+    width: 50%;
+    height: 100%;
+}
+
+.text{
+    margin-top: 6%;
+    margin-left: 6%;
+    margin-right: 6%;
+}
+
+.text p{
+    margin-bottom: 20px;
+}
+
+.title{
+    color: gray;
+}
+
+.SecondText{
+    font-size: 40px;
+    font-family: 'Kanit', sans-serif;
+}
+
+.ThirdText{
+    font-size: 20px;
+    color: gray;
+}
+.price{
+    display: flex;
+    align-items: center;
+}
+
+.NewPrice{
+    font-size: 40px;
+    color: green;
+    margin-right: 30px;
+    font-family: 'Noto Sans SignWriting', sans-serif;
+}
+
+.OldPrice{
+    color: gray;
+    font-size: 15px;
+    margin-bottom: 20px;
+    font-family: 'Noto Sans SignWriting', sans-serif;
+}
+
+button{
+    background-color: rgb(16, 110, 16);
+    width: 100%;
+    height: 50px;
+    border: none;
+    cursor: pointer;
+    border-radius: 12px;
+    color: white;
+    font-size: 16px;
+}
+
+button:hover{
+    opacity: 0.8;
+}
+
+button:active{
+    opacity: 0.4;
+}
